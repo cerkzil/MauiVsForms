@@ -1,0 +1,15 @@
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\bin\Debug\netstandard2.0\XamarinForms.deps.json
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\bin\Debug\netstandard2.0\XamarinForms.dll
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\bin\Debug\netstandard2.0\ref\XamarinForms.dll
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\bin\Debug\netstandard2.0\XamarinForms.pdb
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\XamarinForms.csproj.AssemblyReference.cache
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\XamarinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\XamarinForms.AssemblyInfoInputs.cache
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\XamarinForms.AssemblyInfo.cs
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\XamarinForms.csproj.CoreCompileInputs.cache
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\XamarinForms.dll
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\ref\XamarinForms.dll
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\XamarinForms.pdb
+C:\Users\milka\source\repos\XamarinForms\XamarinForms\XamarinForms\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs

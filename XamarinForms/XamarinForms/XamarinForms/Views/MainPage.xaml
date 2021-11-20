@@ -1,0 +1,40 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms.Views.MainPage"
+             x:Name="MainPageVw"
+             xmlns:mn="clr-namespace:XamarinForms"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Frame Grid.Row="0">
+            <Label Text="Cool Trees to Share!"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        </Frame>
+
+        <ScrollView Grid.Row="1" VerticalOptions="FillAndExpand" BackgroundColor="DarkGray">
+            <StackLayout BindableLayout.ItemsSource="{x:Static mn:Data.Trees}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Vertical" Margin="15,5,15,5" BackgroundColor="{DynamicResource SecondaryColor}">
+                            <Image Source="{Binding Source}" Aspect="Fill" HeightRequest="200"/>
+                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
+                                <Label TextColor="#222" FontSize = "25" Text="{Binding Name}"/>
+                                <Label Text="{Binding Description}" FontSize = "16"/>
+                                <Button Margin="0,25,0,0" Text="SHARE" TextColor="White" BackgroundColor="{DynamicResource PrimaryColor}"
+                                        Command="{Binding Source={x:Reference MainPageVw}, Path=ShareCommand}" 
+                                        CommandParameter="{Binding Source}"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </StackLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>
